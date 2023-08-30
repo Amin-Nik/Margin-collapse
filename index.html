@@ -10,13 +10,15 @@
 
 <body>
     <main>
+        <h1>Let Me Show You Some Margin Collapse</h1>
         <div>
-            <pc class="equal">this paragraph is the first one.</pc>
-            <p class="equal">this paragraph is the second one.</p>
+            <p class="equal">this paragraph is the first one and has <code>1rem</code> margin for up and down.</p>
+            <p class="equal">this paragraph is the second one and has <code>1rem</code> margin for up and down.</p>
         </div>
         <div>
-            <p id="bigger">this paragraph is the third one.</p>
-            <p id="smaller">this paragraph is the fourth one.</p>
+            <p id="bigger">this paragraph is the third one and has <code>2rem</code> margin for only down which is
+                bigger then other paragraphs.</p>
+            <p id="smaller">this paragraph is the fourth one and has <code>1rem</code> margin for up and down.</p>
         </div>
     </main>
 </body>

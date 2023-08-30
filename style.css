@@ -1,10 +1,11 @@
 equal {
-    margin: 1rem 0rem;
+    margin: 1rem 0;
 }
 
 #bigger {
-    margin: 2rem 0rem;
+    margin: 0 0 2rem 0;
 }
+
 #smaller {
-    margin: 1rem 0rem;
+    margin: 1rem 0 0 0;
 }
